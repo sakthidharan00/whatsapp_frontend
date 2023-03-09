@@ -1,0 +1,119 @@
+.sideBar {
+    width: 100%;
+    height: 100%;
+    border-right: 1px solid rgb(176, 176, 176);
+
+}
+
+.sideBar>.sideBar-container {
+
+    height: 100%;
+
+}
+
+.sidebar-Header {
+    width: 100%;
+    display: flex;
+    background-color: rgb(231, 229, 229);
+    justify-content: space-between;
+    height: 8%;
+    min-height: 60px;
+
+
+}
+
+.sidebar-Header>.user-info {
+    padding: 15px;
+}
+
+.sidebar-Header>.shotcut-icons {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    align-items: center;
+    padding: 15px;
+    color: rgb(99, 97, 97);
+}
+
+.sideBar>.sideBar-container>.search-chat {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 5%;
+}
+
+.sideBar>.sideBar-container>.search-chat>form {
+    margin-left: 15px;
+    padding: 10px;
+    width: 80%;
+    background-color: rgb(231, 229, 229);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.sideBar>.sideBar-container>.search-chat>form>input {
+    width: 80%;
+    padding-left: 3px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: medium;
+}
+
+.sideBar>.sideBar-container>.search-chat>form>.css-i4bv87-MuiSvgIcon-root {
+    color: rgb(99, 97, 97);
+}
+
+.sideBar>.sideBar-container>.search-chat>.css-i4bv87-MuiSvgIcon-root {
+    color: rgb(99, 97, 97);
+    padding: 10px;
+}
+
+.sideBar>.sideBar-container>.add-group {
+    background-color: rgb(231, 229, 229);
+    margin: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+    color: rgb(83, 82, 82);
+    border-radius: 10px;
+    height: 3%;
+    width: 80%;
+    cursor: pointer;
+}
+
+.sideBar>.sideBar-container>.sideBar-groupList {
+    
+    width: 100% !important;
+    height: 75% !important;
+    overflow: scroll !important;
+    
+}
+.grpName{
+
+    width: 90% !important;
+ 
+    margin: 1px 0px !important;
+    padding: 15px  !important;
+    display: flex !important;
+    column-gap: 10px !important;
+    align-items: center !important;
+    border-bottom: 1px solid rgb(199, 198, 198,0.5) !important;
+    text-decoration: none !important;
+    text-transform: capitalize;
+    color: rgb(17, 11, 39);
+   
+}
+
+
+a{
+    text-decoration: none;
+}
+.grpName:hover{
+  background-color: rgb(231, 229, 229);
+}

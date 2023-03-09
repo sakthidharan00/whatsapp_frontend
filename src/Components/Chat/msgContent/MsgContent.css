@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Julee&family=Lato&family=Merienda+One&family=Noto+Sans:ital@1&family=Overpass&family=Shadows+Into+Light&display=swap');
+
+
+.msgContent-container {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(231, 229, 229);
+
+}
+
+.msgContent-container>.msgContent-Header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 8%;
+    align-items: center;
+    background-color: rgb(231, 229, 229);
+    min-height: 60px;
+}
+
+.msgContent-container>.msgContent-Header>.msgContent-Header-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    padding: 15px;
+    font-family: 'EB Garamond', serif;
+
+
+}
+
+.msgContent-container>.msgContent-Header>.msgContent-Header-right>.text>.time {
+    color: grey;
+    
+}
+
+
+.msgContent-container>.msgContent-Header>.msgContent-Header-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    padding: 25px;
+    color: rgb(99, 97, 97);
+
+}
+
+.msgContent-container>.msgContent-body {
+    width: 100%;
+    height: 85%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://img.wallpapersafari.com/desktop/728/410/61/64/3QBHDv.png");
+    background-size: 500px;
+    overflow: scroll;
+    
+
+
+}
+
+.msgContent-container>.msgContent-body>.msg-recevier {
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    max-width: 40%;
+    margin-left: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+
+}
+
+.msgContent-container>.msgContent-body>.msg-recevier>.content {
+    background-color: rgb(243, 242, 242);
+    padding: 5px 25px;
+    border: none;
+    border-radius: 10px;
+    margin: 5px 0px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+   
+}
+
+
+#time-sended,#time-recevied{
+    font-family: 'Julee', cursive;
+    color: grey;
+}
+#time-sended{
+    display: flex;
+    justify-content: end;
+    
+}
+
+
+
+.msgContent-container>.msgContent-body>.msg-sender {
+
+
+    width: fit-content;
+
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: 15px;
+    max-width: 40%;
+    
+
+
+}
+
+.msgContent-container>.msgContent-body>.msg-sender>.content {
+    background-color: rgb(208, 241, 203);
+    padding: 5px 25px;
+    border: none;
+    border-radius: 10px;
+    margin: 5px 0px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: fit-content;
+   
+}
+
+
+
+
+
+
+
+
+/* footer */
+.msgContent-container>.msgConetnt-footer {
+
+    display: flex;
+    width: 100%;
+     height: 7%;
+  
+
+}
+
+.msgContent-container>.msgConetnt-footer>.input {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+
+}
+
+.msgContent-container>.msgConetnt-footer>.input>input {
+    width: 100%;
+    height: 35px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    padding-left: 35px;
+}
+
+.msgContent-container>.msgConetnt-footer>.input>.MuiSvgIcon-root {
+    display: flex;
+    width: 10%;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(51, 150, 119);
+}
+
+.msgContent-container>.msgConetnt-footer>.input>.MuiSvgIcon-root:hover {
+    color: rgb(86, 85, 85);
+}

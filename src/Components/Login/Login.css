@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Julee&family=Lato&family=Merienda+One&family=Noto+Sans:ital@1&family=Shadows+Into+Light&display=swap');
+
+.login-Page{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(243, 252, 243);
+    display: grid;
+    place-items: center;
+}
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(203, 233, 208,0.2);
+    padding: 50px;
+    box-shadow: 1px 1px 10px 3px rgb(177, 176, 176,0.5);
+
+
+}
+.login-container>img{
+    height: 10%;
+    width: 40%;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+.login-container>h3{
+    font-family: 'Lato', sans-serif;
+    color:rgb(27, 160, 27);
+  
+}
+.login-container>.MuiButtonBase-root{
+    text-transform: inherit !important;
+    background-color: green;
+    color: rgb(252, 252, 252);
+    font-size: 15px;
+}
+.login-container>.MuiButtonBase-root:hover{
+    background-color: green;
+}
